@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: #f5f4f8;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-bottom: -2.5vh;
+  justify-content: space-between;
+  height: 8vh;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  color: #20173d;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navigaton {
+  display: flex;
+  margin-right: 10px;
+  width: 60vw;
+  justify-content: space-around;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #7153fa;
+}
+
+.btnflex {
+  display: flex;
+  flex-direction: row;
+}
+
+.picofguy {
+  margin-right: 8%;
+  margin-top: 3%;
+  color: #e7e2fe;
+}
+
+.browsebtn {
+  display: block;
+  background-color: #1acb98;
+  color: white;
+  border-color: #1acb98;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 1vw;
+}
+
+.instructorbtn {
+  display: block;
+  background-color: #fff;
+  color: #20173d;
+  border-color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #e7e2fe;
+}
+
+.randomline {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-top: -0.5vh;
+  justify-content: space-evenly;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  color: #62616f;
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: -1px 5px 14px -4px rgba(129, 129, 129, 0.75);
+}
+
+.randomtext {
+  display: flex;
+  flex-basis: 33.3%;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  height: 5vh;
+}
+
+h2 {
+  color: #62616f;
+  text-align: left;
+  margin-left: 15vw;
+  margin-bottom: 0;
+  margin-top: 5vh;
+}
+
+.picrow {
+  display: flex;
+  width: 70vw;
+  margin-left: 15vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -40px;
+}
+
+.picrow img {
+  width: 15vw;
+  flex-basis: 25%;
+  border-radius: 10px;
+}
+
+.text {
+  display: block;
+  border-radius: 10px;
+  height: 40vh;
+  width: 15vw;
+  background-color: #ffffff;
+  text-align: justify;
+  padding: 0px;
+  color: #62616f;
+}
+
+.picrowchild {
+  margin: 10px;
+  flex: 20%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  flex-basis: 4%;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 1rem;
+  font-size: medium;
+}
+#nav span {
+  padding-right: 20px;
+  text-align: center;
+}
+#logo {
+  margin-right: 10px;
+  width: 40px;
+}
+#topbar span {
+  margin-inline: 5px;
+  font-size: 1.2em;
+}
+#topbar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 40px;
+  border-radius: 50%;
+}
+#topend {
+  position: absolute;
+  right: 1rem;
+}
